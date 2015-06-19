@@ -1,0 +1,16 @@
+{
+  "name": "rangy-demos",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Liu-Young/rangy-demos",
+  "authors": [
+    "liupengyang@5usport.com <as397138316@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

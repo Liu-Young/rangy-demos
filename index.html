@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/rangy/rangy-core.js"></script>
+</head>
+<body>
+<h3 id="h3-p">p 元素</h3>
+<p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolor excepturi ut? Ea est et in maiores minus nam sapiente ut voluptas. Consequatur dolorem est id natus numquam qui voluptatem.</p>
+<h3 id="h3-pre">pre 元素</h3>
+<pre id="pre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae blanditiis culpa doloremque ducimus explicabo illum iure, maiores mollitia odit provident quisquam quos reiciendis rem rerum sapiente voluptates. Eveniet, exercitationem.</pre>
+<script>
+window.onload = function () {
+    var selection = rangy.getSelection();
+    console.log(selection);
+};
+var i = 0, flag = false;
+    while (flag) {
+        i++;
+        console.log(i);
+        if (i == 5) {
+            flag = true;
+        }
+    }
+</script>
+</body>
+</html>
